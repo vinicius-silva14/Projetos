@@ -6,7 +6,6 @@ double somar(double a,double b);
 double subtracao(double a,double b);
 double  divisao(double a,double b);
 double multiplicacao(double a,double b);
-double divisaointeira(double a,double b);
 void calcular(int operador,double a,double b);
 int main() {
     double a, b;
@@ -15,7 +14,7 @@ int main() {
 
     while(continuar=='s'||continuar=='S'){
         printf("\nEscolha a operação que será realizada:\n");
-        printf("1 - Soma\n2 - Subtração\n3 - Divisão\n4 - Multiplicação\n5- Divisão inteira\n");
+        printf("1 - Soma\n2 - Subtração\n3 - Divisão\n4 - Multiplicação\n");
         printf("0 - Sair\n");
         printf("Digite o número da operação: ");
         scanf("%d",&operacao);
@@ -24,7 +23,7 @@ int main() {
             printf("Encerrando a calculadora.\n");
             break;
         }
-        if (operacao < 1 || operacao > 5) {
+        if (operacao < 1 || operacao > 4) {
             printf("Operação inválida! Tente novamente.\n");
             continue;
         }
@@ -50,10 +49,6 @@ double subtracao(double a,double b){
 double divisao(double a,double b){
     return a/b;
 }
-double divisaoInteira(double a,double b){
-    return trunc(a / b);
-}
-
 double multiplicacao(double a ,double b){
     return a*b;
 }
@@ -75,9 +70,6 @@ void calcular(int operador,double a,double b){
         break;
     case 4:
         printf("\nO resultado da multiplicação foi: %.2lf",multiplicacao(a,b));
-        break;
-    case 5:
-        printf("\nO resultado da divisão inteira foi: %.0lf",divisaoInteira(a,b));
         break;
     default:
         printf("Tente novamente com uma operação válida");
