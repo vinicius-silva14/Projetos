@@ -111,5 +111,5 @@ Autor
 
 Vinicius Silva
 
-Estudante de Ciência da Computação | Projetos educacionais com C e Java
+Estudante de Ciência da Computação | Projetos com C e Java
 
