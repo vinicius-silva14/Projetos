@@ -1,5 +1,5 @@
 Arquivo: calculadora.c
-
+----------------------------------------------------------------------------------------
 Uma calculadora simples no terminal que permite o usuário realizar operações básicas:
 -Soma
 
@@ -9,14 +9,14 @@ Uma calculadora simples no terminal que permite o usuário realizar operações 
 
 -Multiplicação
 
-Loop para múltiplas operações até o usuário encerrar
+Loop para múltiplas operações até o usuário encerrar.
 
-🛠️ Tecnologias:
+Tecnologias:
 
 Linguagem C
 
 Entrada via scanf e saída formatada com printf
-
+----------------------------------------------------------------------------------------
 Sistema de Empréstimos em Java
 
 Objetivo:
